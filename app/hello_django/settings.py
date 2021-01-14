@@ -23,7 +23,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = int(os.environ.get('DEBUG', default=0))
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '138.68.232.94']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '138.68.232.94', '165.22.83.227', 'docker.petriichuk.com']
 
 # Application definition
 
