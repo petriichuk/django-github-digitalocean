@@ -5,6 +5,7 @@ on: [push]
 env:
   WEB_IMAGE: docker.pkg.github.com/$GITHUB_REPOSITORY/web
   NGINX_IMAGE: docker.pkg.github.com/$GITHUB_REPOSITORY/nginx
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
 jobs:
 
